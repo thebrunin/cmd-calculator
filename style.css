@@ -3,7 +3,7 @@ body {
     color: lime;
     font-family: monospace;
     margin: 0;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -23,7 +23,6 @@ body {
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
-    margin-top: -50px;
 }
 
 input {
@@ -48,6 +47,9 @@ button {
 }
 
 @media (max-width: 768px) {
+    body {
+        height: 90vh;
+    }
     button {
         display: inline-block;
     }
