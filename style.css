@@ -46,11 +46,15 @@ button {
     display: none;
 }
 
+#fecha-modal {
+    display: inline-block;
+}
+
 @media (max-width: 768px) {
     body {
         height: 90vh;
     }
-    button {
+    #calc {
         display: inline-block;
     }
 }
